@@ -1,0 +1,24 @@
+{
+  "name": "watcher",
+  "version": "1.0.0",
+  "description": "a tool to watch js files and restart on changes",
+  "main": "build/index.js",
+  "bin": {
+    "watcher": "build/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^15.0.1"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.1",
+    "inquirer": "^8.0.0",
+    "tree-kill": "^1.2.2"
+  }
+}
