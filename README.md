@@ -5,7 +5,7 @@ Steps to use:
 
 1.Clone repo
 
-2. run command
+2.run command
 ```
  watcher [name of file].js
 ```
